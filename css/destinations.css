@@ -1,0 +1,12 @@
+.destinations .section-title {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.destinations .item header {
+  display: block;
+  position: static;
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 24px;
+}

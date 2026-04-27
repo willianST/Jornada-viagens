@@ -1,5 +1,5 @@
 .categories .section-title {
-  width: 312px;
+  width: 280px;
   margin: 0 auto;
 }
 
@@ -8,6 +8,7 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  margin-bottom: 88px;
 }
 
 .category .cards {
