@@ -66,9 +66,11 @@ body {
   font-size: 20px;
   background-color: var(--secondary-color);
   border-radius: 16px;
-  display: inline-block;
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
-  line-height: 64px;
 }
 
 @media screen and (min-width: 768px) {
