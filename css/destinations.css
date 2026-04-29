@@ -19,6 +19,10 @@
   height: 360px;
 }
 
+.destination-cards .cards h4 {
+  margin-top: 24px;
+}
+
 .destination-cards .cards p {
   margin-bottom: 24px;
 }
