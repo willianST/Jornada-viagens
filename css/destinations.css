@@ -19,15 +19,7 @@
   height: 360px;
 }
 
-.destination-cards .cards header h4 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-}
-
 .destination-cards .cards p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
-  line-height: 32px;
   margin-bottom: 24px;
 }
 
@@ -53,7 +45,6 @@
 
   .destination-cards .cards {
     width: 648px;
-    height: 718px;
   }
 
   .destination-cards .cards .tokyo-img,
