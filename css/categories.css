@@ -22,11 +22,6 @@
   padding-top: 45px;
 }
 
-.category .cards h3 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-}
-
 .category .cards img {
   height: 40px;
   width: auto;
