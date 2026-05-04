@@ -54,6 +54,10 @@ nav {
   font-size: 24px;
 }
 
+.list-link li a.active {
+  border-bottom: 2px solid var(--text-secondary-color);
+}
+
 @media screen and (min-width: 768px) {
   .navigation-menu {
     margin-top: 0;
