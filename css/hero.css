@@ -21,6 +21,7 @@
   height: 460px;
   display: flex;
   align-items: center;
+  margin-bottom: 88px;
 }
 
 .hero-pacotes .text-container {
