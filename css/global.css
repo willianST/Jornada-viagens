@@ -48,7 +48,8 @@ section {
 }
 
 section.hero,
-section.bottom-hero {
+section.bottom-hero,
+section.hero-pacotes {
   width: 100%;
   margin: 0;
 }
