@@ -22,13 +22,24 @@
   background-size: cover;
 }
 
+.payments .content-container .image-content .image.first,
+.payments-pacotes .content-container .image-content .image.first,
+.payments .content-container .image-content .image.second,
+.payments-pacotes .content-container .image-content .image.second {
+  height: 254px;
+}
+
+.payments .content-container .image-content .image.third,
+.payments-pacotes .content-container .image-content .image.third {
+  height: 182px;
+}
+
 .payments .content-container .image-content .image.first {
   background-image: url(../img/img-bag.jpg);
 }
 
 .payments-pacotes .content-container .image-content .image.first {
   background-image: url(../img/japão-1-mobile.jpg);
-  height: 254px;
 }
 
 .payments .content-container .image-content .image.second {
@@ -37,7 +48,6 @@
 
 .payments-pacotes .content-container .image-content .image.second {
   background-image: url(../img/japão-2-mobile.jpg);
-  height: 254px;
 }
 
 .payments .content-container .image-content .image.third {
@@ -46,7 +56,6 @@
 
 .payments-pacotes .content-container .image-content .image.third {
   background-image: url(../img/japão-3-mobile.jpg);
-  height: 182px;
 }
 
 .payments .content-container .image-content .image.third {
@@ -54,25 +63,45 @@
 }
 
 @media screen and (min-width: 768px) {
+  .payments-pacotes .content-container a {
+    display: none;
+  }
+
   .payments .content-container .image-content .image.first {
     background-image: url(../img/img-bag-tablet.jpg);
+  }
+
+  .payments-pacotes .content-container .image-content .image.first {
+    background-image: url(../img/japão-1-tablet.jpg);
   }
 
   .payments .content-container .image-content .image.second {
     background-image: url(../img/img-passport-tablet.jpg);
   }
 
+  .payments-pacotes .content-container .image-content .image.second {
+    background-image: url(../img/japão-2-tablet.jpg);
+  }
+
   .payments .content-container .image-content .image.third {
     background-image: url(../img/img-people-tablet.jpg);
+  }
+
+  .payments-pacotes .content-container .image-content .image.third {
+    background-image: url(../img/japão-3-tablet.jpg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payments-pacotes .content-container .image-content .image.first,
+  .payments-pacotes .content-container .image-content .image.second {
+    background-position: 50% 50%;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .payments .content-container {
     display: flex;
-  }
-
-  .payments .content-container {
     justify-content: space-between;
   }
 
