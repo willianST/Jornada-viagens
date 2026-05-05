@@ -1,3 +1,13 @@
+.payments-pacotes .content-container .text-content .price {
+  font-size: 40px;
+  margin: 0 0 24px;
+}
+
+.payments-pacotes .content-container a {
+  width: 100%;
+  margin-top: 24px;
+}
+
 .payments .content-container .image-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -7,39 +17,53 @@
   height: 460px;
 }
 
-.payments .content-container .image-content .image.first {
-  background: url(../img/img-bag.jpg) no-repeat;
+.payments .content-container .image-content .image {
+  background-repeat: no-repeat;
   background-size: cover;
+}
+
+.payments .content-container .image-content .image.first {
+  background-image: url(../img/img-bag.jpg);
+}
+
+.payments-pacotes .content-container .image-content .image.first {
+  background-image: url(../img/japão-1-mobile.jpg);
+  height: 254px;
 }
 
 .payments .content-container .image-content .image.second {
-  background: url(../img/img-passport.jpg) no-repeat;
-  background-size: cover;
+  background-image: url(../img/img-passport.jpg);
 }
 
-.payments .content-container .image-content .image.thirdy {
-  background: url(../img/img-people.jpg) no-repeat;
-  background-size: cover;
+.payments-pacotes .content-container .image-content .image.second {
+  background-image: url(../img/japão-2-mobile.jpg);
+  height: 254px;
 }
 
-.payments .content-container .image-content .image.thirdy {
+.payments .content-container .image-content .image.third {
+  background-image: url(../img/img-people.jpg);
+}
+
+.payments-pacotes .content-container .image-content .image.third {
+  background-image: url(../img/japão-3-mobile.jpg);
+  height: 182px;
+}
+
+.payments .content-container .image-content .image.third {
   grid-column: span 2;
 }
 
 @media screen and (min-width: 768px) {
   .payments .content-container .image-content .image.first {
-    background: url(../img/img-bag-tablet.jpg) no-repeat;
-    background-size: cover;
+    background-image: url(../img/img-bag-tablet.jpg);
   }
 
   .payments .content-container .image-content .image.second {
-    background: url(../img/img-passport-tablet.jpg) no-repeat;
-    background-size: cover;
+    background-image: url(../img/img-passport-tablet.jpg);
   }
 
-  .payments .content-container .image-content .image.thirdy {
-    background: url(../img/img-people-tablet.jpg) no-repeat;
-    background-size: cover;
+  .payments .content-container .image-content .image.third {
+    background-image: url(../img/img-people-tablet.jpg);
   }
 }
 
