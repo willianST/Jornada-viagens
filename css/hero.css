@@ -1,6 +1,6 @@
 .hero .hero-img,
 .bottom-hero .hero-img,
-.hero-pacotes .hero-img {
+.pacotes.hero .hero-img {
   height: 400px;
   width: 100%;
   background-repeat: no-repeat;
@@ -16,40 +16,8 @@
   background-position: center 60%;
 }
 
-.hero-pacotes .hero-img {
-  background-image: url(../img/hero-pacotes-mobile.jpg);
-  height: 460px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 88px;
-}
-
-.bottom-hero-pacotes .hero-img {
-  background-image: url(../img/hero-bottom-pacotes-mobile.jpg);
-}
-
-.hero-pacotes .text-container {
-  padding: 0 24px;
-}
-
-.hero-pacotes .text-container h1 {
-  font-size: 48px;
-  color: var(--text-secondary-color);
-  font-weight: var(--title-weight);
-}
-
-.hero-pacotes .text-container hr {
-  width: 180px;
-  height: 4px;
-  background-color: var(--secondary-color);
-  align-items: start;
-  display: block;
-  border: none;
-  margin: 16px 0 32px 0;
-}
-
 .hero h2,
-.hero-pacotes .text-container h2 {
+.pacotes.hero .text-container h2 {
   margin: 0px;
   font-weight: var(--text-weight);
   font-size: 20px;
@@ -61,17 +29,50 @@
   text-align: center;
 }
 
-.hero-pacotes .text-container h2 {
+/* PAGE: PACOTES */
+
+.pacotes.hero .hero-img {
+  background-image: url(../img/pacotes-viagem/hero-pacotes-mobile.jpg);
+  height: 460px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 88px;
+}
+
+.pacotes.bottom-hero .hero-img {
+  background-image: url(../img/pacotes-viagem/hero-bottom-pacotes-mobile.jpg);
+}
+
+.pacotes.hero .text-container {
+  padding: 0 24px;
+}
+
+.pacotes.hero .text-container h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+}
+
+.pacotes.hero .text-container hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  align-items: start;
+  display: block;
+  border: none;
+  margin: 16px 0 32px 0;
+}
+
+.pacotes.hero h2 {
+  padding: 0;
+  text-align: start;
+}
+
+.pacotes.hero .text-container h2 {
   color: var(--text-secondary-color);
 }
 
 @media screen and (min-width: 768px) {
-  .hero .hero-img,
-  .bottom-hero .hero-img {
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   .hero .hero-img {
     background-image: url(../img/hero-tablet.jpg);
     height: 620px;
@@ -83,33 +84,29 @@
     height: 400px;
   }
 
-  .hero-pacotes .hero-img {
-    background-image: url(../img/hero-pacotes-tablet.jpg);
-    background-position: 80% center;
-    height: 620px;
-  }
-
-  .bottom-hero-pacotes .hero-img {
-    background-image: url(../img/hero-bottom-pacotes-tablet.jpg);
-  }
-
-  .hero-pacotes .text-container {
-    padding: 210px 69px 108px 120px;
-  }
-
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
   }
+
+  /* PAGE: PACOTES TABLET */
+
+  .pacotes.hero .hero-img {
+    background-image: url(../img/pacotes-viagem/hero-pacotes-tablet.jpg);
+    background-position: 80% center;
+    height: 620px;
+  }
+
+  .pacotes.bottom-hero .hero-img {
+    background-image: url(../img/pacotes-viagem/hero-bottom-pacotes-tablet.jpg);
+  }
+
+  .pacotes.hero .text-container {
+    padding: 210px 69px 108px 120px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  .hero .hero-img,
-  .bottom-hero .hero-img {
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   .hero .hero-img {
     background-image: url(../img/hero-desktop.jpg);
     height: 620px;
@@ -119,10 +116,6 @@
   .bottom-hero .hero-img {
     background-image: url(../img/hero-bottom-desktop.jpg);
     height: 600px;
-  }
-
-  .hero-pacotes .text-container {
-    padding: 210px 69px 108px 120px;
   }
 
   .hero h2 {
@@ -135,15 +128,17 @@
     padding: 88px 160px;
   }
 
-  .hero-pacotes .text-container {
+  /* PAGE: PACOTES DESKTOP */
+
+  .pacotes.hero .text-container {
     padding: 210px 740px 210px 120px;
   }
 
-  .hero-pacotes .hero-img {
-    background-image: url(../img/hero-pacotes-desktop.jpg);
+  .pacotes.hero .hero-img {
+    background-image: url(../img/pacotes-viagem/hero-pacotes-desktop.jpg);
   }
 
-  .bottom-hero-pacotes .hero-img {
-    background-image: url(../img/hero-bottom-pacotes-desktop.jpg);
+  .pacotes.bottom-hero .hero-img {
+    background-image: url(../img/pacotes-viagem/hero-bottom-pacotes-desktop.jpg);
   }
 }
