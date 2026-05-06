@@ -1,13 +1,3 @@
-.payments-pacotes .content-container .text-content .price {
-  font-size: 40px;
-  margin: 0 0 24px;
-}
-
-.payments-pacotes .content-container a {
-  width: 100%;
-  margin-top: 24px;
-}
-
 .payments .content-container .image-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -23,14 +13,14 @@
 }
 
 .payments .content-container .image-content .image.first,
-.payments-pacotes .content-container .image-content .image.first,
 .payments .content-container .image-content .image.second,
-.payments-pacotes .content-container .image-content .image.second {
+.pacotes.payments .content-container .image-content .image.first,
+.pacotes.payments .content-container .image-content .image.second {
   height: 254px;
 }
 
 .payments .content-container .image-content .image.third,
-.payments-pacotes .content-container .image-content .image.third {
+.pacotes.payments .content-container .image-content .image.third {
   height: 182px;
 }
 
@@ -38,63 +28,80 @@
   background-image: url(../img/img-bag.jpg);
 }
 
-.payments-pacotes .content-container .image-content .image.first {
-  background-image: url(../img/japão-1-mobile.jpg);
-}
-
 .payments .content-container .image-content .image.second {
   background-image: url(../img/img-passport.jpg);
-}
-
-.payments-pacotes .content-container .image-content .image.second {
-  background-image: url(../img/japão-2-mobile.jpg);
 }
 
 .payments .content-container .image-content .image.third {
   background-image: url(../img/img-people.jpg);
 }
 
-.payments-pacotes .content-container .image-content .image.third {
-  background-image: url(../img/japão-3-mobile.jpg);
-}
-
 .payments .content-container .image-content .image.third {
   grid-column: span 2;
 }
 
-@media screen and (min-width: 768px) {
-  .payments-pacotes .content-container a {
-    display: none;
-  }
+/* PAGE: PACOTE */
 
+.pacotes.payments .content-container .text-content .price {
+  font-size: 40px;
+  margin: 0 0 24px;
+}
+
+.pacotes.payments .content-container a {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.pacotes.payments .content-container .image-content .image.first {
+  background-image: url(../img/pacotes-viagem/japão-1-mobile.jpg);
+}
+
+.pacotes.payments .content-container .image-content .image.second {
+  background-image: url(../img/pacotes-viagem/japão-2-mobile.jpg);
+}
+
+.pacotes.payments .content-container .image-content .image.third {
+  background-image: url(../img/pacotes-viagem/japão-3-mobile.jpg);
+}
+
+@media screen and (min-width: 768px) {
   .payments .content-container .image-content .image.first {
     background-image: url(../img/img-bag-tablet.jpg);
-  }
-
-  .payments-pacotes .content-container .image-content .image.first {
-    background-image: url(../img/japão-1-tablet.jpg);
   }
 
   .payments .content-container .image-content .image.second {
     background-image: url(../img/img-passport-tablet.jpg);
   }
 
-  .payments-pacotes .content-container .image-content .image.second {
-    background-image: url(../img/japão-2-tablet.jpg);
-  }
-
   .payments .content-container .image-content .image.third {
     background-image: url(../img/img-people-tablet.jpg);
+    background-position: center;
   }
 
-  .payments-pacotes .content-container .image-content .image.third {
-    background-image: url(../img/japão-3-tablet.jpg);
+  /* PAGE: PACOTE TABLET*/
+
+  .pacotes.payments .content-container a {
+    display: none;
+  }
+
+  .pacotes.payments .content-container .image-content .image.first {
+    background-image: url(../img/pacotes-viagem/japão-1-tablet.jpg);
+  }
+
+  .pacotes.payments .content-container .image-content .image.second {
+    background-image: url(../img/pacotes-viagem/japão-2-tablet.jpg);
+  }
+
+  .pacotes.payments .content-container .image-content .image.third {
+    background-image: url(../img/pacotes-viagem/japão-3-tablet.jpg);
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .payments-pacotes .content-container .image-content .image.first,
-  .payments-pacotes .content-container .image-content .image.second {
+  /* PAGE: PACOTE LAPTOP*/
+
+  .pacotes.payments .content-container .image-content .image.first,
+  .pacotes.payments .content-container .image-content .image.second {
     background-position: 50% 50%;
   }
 }
