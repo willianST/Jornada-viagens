@@ -50,10 +50,6 @@
   gap: 0px;
 }
 
-.blog.destinations .section-title h2 {
-  font-size: 32px;
-}
-
 .blog .destination-cards .cards h3 {
   margin: 32px 0 24px;
 }
@@ -77,6 +73,14 @@
 .blog.destinations .cards figcaption {
   font-size: 14px;
   margin-top: 8px;
+}
+
+.hiroshima-img {
+  background-image: url(../img/blog/hiroshima-mobile.jpg);
+}
+
+.kyoto-img {
+  background-image: url(../img/blog/kyoto-mobile.jpg);
 }
 
 @media screen and (min-width: 768px) {
@@ -127,6 +131,14 @@
     width: 312px;
     height: 360px;
   }
+
+  .hiroshima-img {
+    background-image: url(../img/blog/hiroshima-tablet.jpg);
+  }
+
+  .kyoto-img {
+    background-image: url(../img/blog/kyoto-tablet.jpg);
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -145,6 +157,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
+    align-items: flex-start;
   }
 
   .destination-cards .cards {
@@ -165,15 +178,24 @@
     align-items: flex-start;
   }
 
-  .tokyo-store {
-    background-image: url(../img/blog/img-tokyoStore-desktop.jpg);
-  }
-
   .blog .destination-cards .destination-img.tokyo-store {
     width: 100%;
   }
 
+  .tokyo-store {
+    background-image: url(../img/blog/img-tokyoStore-desktop.jpg);
+  }
+
   .tokyo-img {
     background-image: url(../img/blog/img-TokyoCity.jpg);
+  }
+
+  .more .destination-cards .cards {
+    width: 384px;
+    min-height: 880px;
+  }
+
+  .more .destination-cards .cards footer {
+    margin-top: auto;
   }
 }
