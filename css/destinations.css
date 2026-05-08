@@ -20,6 +20,7 @@
   height: 360px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .destination-cards .cards h3 {
@@ -69,6 +70,10 @@
   background-image: url(../img/blog/img-tokyoStore-mobile.jpg);
 }
 
+.blog .destination-cards figure {
+  margin: 0;
+}
+
 .blog.destinations .cards figcaption {
   font-size: 14px;
   margin-top: 8px;
@@ -90,11 +95,11 @@
   }
 
   .tokyo-img {
-    background-image: url(../img/Tokyo-tablet-desk.jpg);
+    background-image: url(../img/tokyo-tablet-desk.jpg);
   }
 
   .osaka-img {
-    background-image: url(../img/Osaka-tablet-desk.jpg);
+    background-image: url(../img/osaka-tablet-desk.jpg);
   }
 
   .destination-cards .button {
@@ -164,12 +169,11 @@
     background-image: url(../img/blog/img-tokyoStore-desktop.jpg);
   }
 
-  .tokyo-img {
-    background-image: url(../img/blog/img-TokyoCity.jpg);
-    background-position: center;
-  }
-
   .blog .destination-cards .destination-img.tokyo-store {
     width: 100%;
+  }
+
+  .tokyo-img {
+    background-image: url(../img/blog/img-TokyoCity.jpg);
   }
 }
