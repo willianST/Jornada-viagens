@@ -127,10 +127,16 @@
     background-image: url(../img/pacotes-viagem/hero-bottom-pacotes-tablet.jpg);
   }
 
-  /* PAGE: BLOG TABLET*/
+  /* PAGE: BLOG TABLET */
 
   .blog.hero .hero-img {
     background-image: url(../img/blog/hero-blog-tablet.jpg);
+  }
+
+  /* PAGE: CONTATO TABLET */
+
+  .contact.hero .hero-img {
+    background-image: url(../img/contact/hero-contact-tablet.jpg);
   }
 }
 
@@ -176,5 +182,11 @@
 
   .blog.hero .hero-img {
     background-image: url(../img/blog/hero-blog-desktop.jpg);
+  }
+
+  /* PAGE: CONTATO DESKTOP */
+
+  .contact.hero .hero-img {
+    background-image: url(../img/contact/hero-contact-desktop.jpg);
   }
 }
