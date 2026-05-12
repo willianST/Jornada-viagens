@@ -69,3 +69,20 @@
 .questionnaire textarea:focus {
   border: 2px solid var(--secondary-color);
 }
+
+.questionnaire .button-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.questionnaire .button {
+  width: 100%;
+  max-width: 312px;
+}
+
+@media screen and (min-width: 768px) {
+  .questionnaire .button {
+    width: 280px;
+  }
+}
