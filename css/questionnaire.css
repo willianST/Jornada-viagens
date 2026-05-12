@@ -1,0 +1,88 @@
+.questionnaire .content-text {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.questionnaire label,
+.questionnaire input,
+.questionnaire textarea {
+  color: #757575;
+}
+
+.questionnaire label,
+.questionnaire input::placeholder,
+.questionnaire textarea::placeholder {
+  color: #757575;
+  opacity: 1;
+  font-weight: var(--text-weight);
+}
+
+.questionnaire form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.questionnaire .input-group,
+.questionnaire .textArea-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.questionnaire input {
+  width: 100%;
+  height: 40px;
+  border-bottom: 2px solid rgb(172, 172, 172);
+}
+
+.questionnaire input:hover,
+.questionnaire input:focus {
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.questionnaire .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.questionnaire .textArea-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.questionnaire textarea {
+  border: 2px solid rgb(172, 172, 172);
+  height: 120px;
+  border-radius: 16px;
+  padding: 8px;
+  resize: none;
+}
+
+.questionnaire textarea:hover,
+.questionnaire textarea:focus {
+  border: 2px solid var(--secondary-color);
+}
+
+.questionnaire .button-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.questionnaire .button {
+  width: 100%;
+  max-width: 312px;
+}
+
+@media screen and (min-width: 768px) {
+  .questionnaire .button {
+    width: 280px;
+  }
+}

@@ -82,6 +82,73 @@
           </div>
         </div>
       </section>
+      <section class="questionnaire">
+        <div class="section-title">
+          <h2>Preencha o formulário:</h2>
+          <hr />
+        </div>
+        <header>
+          <p class="content-text">
+            Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+            problemas, trazer dicas e orientações objetivas para tornar sua
+            experiência o mais prazerosa e tranquila possível. Preencha seus
+            dados que vamos retornar seu contato conforme a urgência do seu
+            chamado. Pode confiar!
+          </p>
+        </header>
+
+        <form action="" method="get">
+          <div class="input-group">
+            <label for="userName" class="sr-only">Seu nome</label>
+            <input
+              type="text"
+              id="userName"
+              name="userName"
+              placeholder="Seu nome"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="userPhone" class="sr-only">Telefone</label>
+            <input
+              type="tel"
+              id="userPhone"
+              name="userPhone"
+              pattern="[0-9]{11}"
+              title="Digite 11 números (DDD + número) sem espaços ou traços."
+              placeholder="Telefone"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="userEmail" class="sr-only">Email</label>
+            <input
+              type="email"
+              id="userEmail"
+              name="userEmail"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="subject" class="sr-only">Assunto</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Assunto"
+              required
+            />
+          </div>
+          <div class="textArea-box">
+            <label for="userSubject">Assunto</label>
+            <textarea name="userSubject" id="userSubject"></textarea>
+          </div>
+          <div class="button-box">
+            <button type="submit" class="button">Enviar!</button>
+          </div>
+        </form>
+      </section>
     </main>
   </body>
 </html>
