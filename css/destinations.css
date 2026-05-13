@@ -164,6 +164,10 @@
     width: 588px;
   }
 
+  .osaka-img {
+    background-image: url(../img/osaka-tablet-desk.jpg);
+  }
+
   /* PAGE: BLOG DESKTOP*/
 
   .blog .destination-cards {
